@@ -1,24 +1,48 @@
 {
-	"name": "obsidian-sample-plugin",
+	"name": "obsidian-stata-plugin",
 	"version": "1.0.0",
-	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+	"description": "Comprehensive Stata syntax highlighting for Obsidian with 600+ commands, 200+ functions, and community package support",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
 		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
 		"version": "node version-bump.mjs && git add manifest.json versions.json"
 	},
-	"keywords": [],
-	"author": "",
+	"keywords": [
+		"obsidian",
+		"plugin",
+		"stata",
+		"syntax-highlighting",
+		"statistics",
+		"econometrics",
+		"data-analysis",
+		"textmate",
+		"codemirror"
+	],
+	"author": "onyxaegis",
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/onyxaegis/stata.obsidian.git"
+	},
+	"bugs": {
+		"url": "https://github.com/onyxaegis/stata.obsidian/issues"
+	},
+	"homepage": "https://github.com/onyxaegis/stata.obsidian#readme",
 	"devDependencies": {
+		"@types/codemirror": "^5.60.16",
 		"@types/node": "^16.11.6",
 		"@typescript-eslint/eslint-plugin": "5.29.0",
 		"@typescript-eslint/parser": "5.29.0",
 		"builtin-modules": "3.3.0",
-		"esbuild": "0.17.3",
+		"esbuild": "^0.25.8",
 		"obsidian": "latest",
+		"rollup": "^4.45.1",
 		"tslib": "2.4.0",
 		"typescript": "4.7.4"
+	},
+	"dependencies": {
+		"@codemirror/language": "^6.11.2",
+		"@codemirror/legacy-modes": "^6.5.1"
 	}
 }

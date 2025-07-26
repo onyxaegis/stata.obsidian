@@ -1,8 +1,111 @@
-/*
+/* Simple Stata Syntax Highlighting Styles */
 
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
+/* Basic code block styling */
+.stata-code {
+    background-color: #f8f8f8;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    padding: 16px;
+    overflow: auto;
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+    font-size: 14px;
+    line-height: 1.45;
+}
 
-If your plugin does not need CSS, delete this file.
+/* CodeMirror editor syntax highlighting */
+.cm-keyword {
+    color: #0000ff;
+    font-weight: bold;
+}
 
-*/
+.cm-builtin {
+    color: #ff6600;
+    font-weight: bold;
+}
+
+.cm-comment {
+    color: #008000;
+    font-style: italic;
+}
+
+.cm-string {
+    color: #ff0000;
+}
+
+.cm-number {
+    color: #800080;
+}
+
+.cm-operator {
+    color: #000080;
+    font-weight: bold;
+}
+
+.cm-variable {
+    color: #000000;
+}
+
+.cm-punctuation {
+    color: #666666;
+}
+
+/* Preview mode syntax highlighting */
+.stata-keyword {
+    color: #0000ff;
+    font-weight: bold;
+}
+
+.stata-function {
+    color: #ff6600;
+    font-weight: bold;
+}
+
+.stata-comment {
+    color: #008000;
+    font-style: italic;
+}
+
+.stata-string {
+    color: #ff0000;
+}
+
+.stata-number {
+    color: #800080;
+}
+
+.stata-operator {
+    color: #000080;
+    font-weight: bold;
+}
+
+/* Dark theme support */
+.theme-dark .cm-keyword,
+.theme-dark .stata-keyword {
+    color: #569cd6;
+}
+
+.theme-dark .cm-builtin,
+.theme-dark .stata-function {
+    color: #dcdcaa;
+}
+
+.theme-dark .cm-comment,
+.theme-dark .stata-comment {
+    color: #6a9955;
+}
+
+.theme-dark .cm-string,
+.theme-dark .stata-string {
+    color: #ce9178;
+}
+
+.theme-dark .cm-number,
+.theme-dark .stata-number {
+    color: #b5cea8;
+}
+
+.theme-dark .stata-code {
+    background-color: #1e1e1e;
+    border-color: #333;
+    color: #d4d4d4;
+}

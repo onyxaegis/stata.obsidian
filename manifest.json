@@ -1,11 +1,11 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
+	"id": "stata-syntax-highlighting",
+	"name": "Stata Syntax Highlighting",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"description": "Comprehensive Stata syntax highlighting with 600+ commands, 200+ functions, and community package support. Professional-grade highlighting for code blocks and inline code.",
+	"author": "onyxaegis",
+	"authorUrl": "https://github.com/onyxaegis",
+	"fundingUrl": "",
 	"isDesktopOnly": false
 }
