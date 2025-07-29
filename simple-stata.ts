@@ -1,14 +1,6 @@
-/**
- * Simple test version of Stata syntax highlighting
- * This version uses basic highlighting to ensure core functionality works
- */
-
 import { LanguageSupport, StreamLanguage } from '@codemirror/language';
 import { EditorView } from '@codemirror/view';
 
-/**
- * Create simple Stata language support for testing
- */
 export function createSimpleStataLanguageSupport(): LanguageSupport {
     const stataStreamLanguage = StreamLanguage.define({
         name: 'stata',

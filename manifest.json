@@ -3,7 +3,7 @@
 	"name": "Stata Syntax Highlighting",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Comprehensive Stata syntax highlighting with 600+ commands, 200+ functions, and community package support. Professional-grade highlighting for code blocks and inline code.",
+	"description": "Stata syntax highlighting for Obsidian.",
 	"author": "onyxaegis",
 	"authorUrl": "https://github.com/onyxaegis",
 	"fundingUrl": "",

@@ -1,7 +1,7 @@
 {
 	"name": "obsidian-stata-plugin",
 	"version": "1.0.0",
-	"description": "Comprehensive Stata syntax highlighting for Obsidian with 600+ commands, 200+ functions, and community package support",
+	"description": "Stata syntax highlighting for Obsidian",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
@@ -12,11 +12,12 @@
 		"obsidian",
 		"plugin",
 		"stata",
+		"mata",
+		"language",
 		"syntax-highlighting",
 		"statistics",
 		"econometrics",
 		"data-analysis",
-		"textmate",
 		"codemirror"
 	],
 	"author": "onyxaegis",

@@ -25,7 +25,6 @@
 
 .cm-comment {
     color: #008000;
-    font-style: italic;
 }
 
 .cm-string {
@@ -62,7 +61,6 @@
 
 .stata-comment {
     color: #008000;
-    font-style: italic;
 }
 
 .stata-string {
@@ -86,22 +84,22 @@
 
 .theme-dark .cm-builtin,
 .theme-dark .stata-function {
-    color: #dcdcaa;
+    color: #00ffea;
 }
 
 .theme-dark .cm-comment,
 .theme-dark .stata-comment {
-    color: #6a9955;
+    color: #1d9417;
 }
 
 .theme-dark .cm-string,
 .theme-dark .stata-string {
-    color: #ce9178;
+    color: #5e01f2;
 }
 
 .theme-dark .cm-number,
 .theme-dark .stata-number {
-    color: #b5cea8;
+    color: #f801db;
 }
 
 .theme-dark .stata-code {
