@@ -12,27 +12,30 @@
     line-height: 1.45;
 }
 
-/* CodeMirror editor syntax highlighting */
-.cm-keyword {
-    color: #0000ff;
-    font-weight: bold;
+/* Apply consistent coloring for all modes */
+.cm-keyword,
+.stata-keyword {
+    color: #569cd6;
 }
 
-.cm-builtin {
-    color: #ff6600;
-    font-weight: bold;
+.cm-builtin,
+.stata-function {
+    color: #00ffea;
 }
 
-.cm-comment {
-    color: #008000;
+.cm-comment,
+.stata-comment {
+    color: #1d9417;
 }
 
-.cm-string {
-    color: #ff0000;
+.cm-string,
+.stata-string {
+    color: #5e01f2;
 }
 
-.cm-number {
-    color: #800080;
+.cm-number,
+.stata-number {
+    color: #f801db;
 }
 
 .cm-operator {
@@ -48,60 +51,12 @@
     color: #666666;
 }
 
-/* Preview mode syntax highlighting */
-.stata-keyword {
-    color: #0000ff;
-    font-weight: bold;
-}
-
-.stata-function {
-    color: #ff6600;
-    font-weight: bold;
-}
-
-.stata-comment {
-    color: #008000;
-}
-
-.stata-string {
-    color: #ff0000;
-}
-
-.stata-number {
-    color: #800080;
-}
-
 .stata-operator {
     color: #000080;
     font-weight: bold;
 }
 
-/* Dark theme support */
-.theme-dark .cm-keyword,
-.theme-dark .stata-keyword {
-    color: #569cd6;
-}
-
-.theme-dark .cm-builtin,
-.theme-dark .stata-function {
-    color: #00ffea;
-}
-
-.theme-dark .cm-comment,
-.theme-dark .stata-comment {
-    color: #1d9417;
-}
-
-.theme-dark .cm-string,
-.theme-dark .stata-string {
-    color: #5e01f2;
-}
-
-.theme-dark .cm-number,
-.theme-dark .stata-number {
-    color: #f801db;
-}
-
+/* Dark theme support for code blocks */
 .theme-dark .stata-code {
     background-color: #1e1e1e;
     border-color: #333;
