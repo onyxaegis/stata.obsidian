@@ -1,7 +1,7 @@
 {
 	"id": "stata-syntax-highlighting",
 	"name": "Stata Syntax Highlighting",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"minAppVersion": "0.15.0",
 	"description": "Stata syntax highlighting for Obsidian.",
 	"author": "onyxaegis",
